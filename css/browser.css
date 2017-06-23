@@ -1,0 +1,310 @@
+.container{
+    width: 1366px;
+    height: 100%;
+    display: block;
+  margin: 0 auto;
+}
+
+                                     /* style for button bar */
+
+
+
+.b-btnbg{
+    
+       background: #0058ff; 
+    
+    background: -webkit-linear-gradient(left top,#0058ff, #00c4ff);
+   
+    background: -moz-linear-gradient(left top,#fd4343, #ff9f4d); 
+   
+     
+    
+   -webkit-border-radius: 25px;
+    
+    -moz-border-radius: 35px;
+}
+
+.b-btnstyle button{
+     background-color: rgba(255, 255, 255, 0); /* Green */
+    border: 0px solid rgba(0, 0, 0, 0);
+    color: white;
+    padding: 15px;
+    
+    width: 33%;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+    
+}
+
+.b-btnstyle button:hover{
+    
+    
+    outline: none;
+     background-color: rgba(0, 0, 0, 0.2); 
+    
+   
+    -webkit-border-radius: 25px;
+    
+    -moz-border-radius: 35px;
+    
+    padding: 15px;
+    
+   
+ 
+    
+    
+    background: -webkit-linear-gradient(left,rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0)); 
+
+    background: -moz-linear-gradient(right,rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0)); 
+
+ 
+    
+    
+}
+
+
+p.redish::-moz-selection {
+  background: #ff6044;
+}
+                                        /* Submit text buttons and inputs */
+
+
+.i-text-wdith [type = text]{
+    
+    width: 35%;
+    height: 150px;
+    
+}
+
+.i-text-style [type = text]{
+    
+   
+    
+    border: 1px solid #000000;
+    overflow: hidden;
+   text-overflow: ellipsis; 
+    
+}
+
+.i-text-test p{
+    
+    
+    
+  
+    width: 35%;
+    height: 100px;
+    
+    border: 1px solid #000000;
+     
+    overflow: hidden;
+    
+ 
+     
+}
+   
+
+.i-input-pad input{
+    
+    margin-top: 5px;
+    margin-bottom: 5px;    
+}
+
+.i-btn-style [type = submit]{
+    
+     
+    border: 0px solid white;
+    color: white;
+    padding: 5px;
+    
+    width: 8%;
+    
+    
+    
+    
+    font-size: 16px;
+    
+     background: #0058ff; 
+    
+    background: -webkit-linear-gradient(left top,#0058ff, #00a7ff);
+   
+    background: -moz-linear-gradient(left top,#fd4343, #ff9f4d); 
+    
+   box-shadow: 0 4px #999;
+     
+    
+   -webkit-border-radius: 15px;
+    
+    -moz-border-radius: 15px;
+}
+
+
+.i-btn-style [type = submit]:hover{
+
+width: 10%;
+
+    
+
+}
+
+
+.i-btn-style [type = submit]:active{
+
+    width: 10%;
+    -webkit-transform: translateY(2px);
+    -moz-transform: translateY(3px);
+    box-shadow: 0 4px #535353;
+    outline: none;
+    
+}
+
+.i-btn-trans [type = submit]{
+
+ 
+    
+    -webkit-transition: width 1s;
+    -moz-transition: width 2s;
+    
+    
+
+
+
+}
+
+
+
+                                                    /* image stylings */
+
+
+
+.img-size{
+    
+    width: 500px;
+      height: 300px;
+    display: block;
+    
+}
+
+
+.img-overlay{
+     
+    position: absolute;
+    
+      width: 500px;
+      height: 300px;
+      opacity: 0;
+      -webkit-transition: .5s ease;
+      -moz-transition: .8s ease;
+      background-color: rgba(103, 103, 103, 0.57);
+   
+     
+}
+
+
+
+.img-cont{
+    
+   position: relative;
+  width: 500px;
+    padding-bottom: 35px;
+}
+
+.img-cont:hover .img-overlay{
+    
+    opacity: 1;
+    
+    
+}
+
+.img-text{
+    
+    font-family:"";
+     color: white;
+  font-size: 36px;
+  
+  padding-top: 150px;
+    
+     -webkit-transform: translate(90px);
+  -moz-transform: translate(75px);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.img-size2{
+    
+    width: 500px;
+      height: 500px;
+    display: block;
+    
+}
+
+
+
+
+
+.img-overlay2{
+     
+    position: absolute;
+    
+      width: 500px;
+      height: 500px;
+      opacity: 0;
+      -webkit-transition: .5s ease;
+      -moz-transition: .8s ease;
+    
+      background-color: rgba(103, 103, 103, 0.57);
+     
+    
+     
+}
+
+
+
+.img-cont2{
+    
+   position: relative;
+  width: 500px;
+        -webkit-filter: blur(2px);
+    -moz-filter: blur(5px);
+    
+    padding-bottom: 35px;
+}
+
+.img-cont2:hover .img-overlay2{
+    
+    opacity: 1;
+    
+    
+}
+
+.img-text2{
+    
+    
+     color: white;
+  font-size: 36px;
+  
+  padding-top: 235px;
+    
+     -webkit-transform: translate(155px);
+  -moz-transform: translate(125px);
+    
+}
+
+
